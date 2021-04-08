@@ -1,9 +1,10 @@
 import './App.css';
+import { Random } from './components/Random';
 
 function App() {
   return (
     <div className="App">
-      hello
+      <Random />
     </div>
   );
 }
